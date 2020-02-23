@@ -1,5 +1,5 @@
 # PaperEduc
-Paper Education: Effect of Gender Matching teacher over PISE-Test performance.
+Paper Education: Effect of Gender Matching teachers over PISE-Test performance.
 
 
 This is a project we are starting. 

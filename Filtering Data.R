@@ -5,7 +5,8 @@ library(haven)
 library(foreign)
 library(tidyverse)
 
-setwd("~/Desktop/Ma Economics/Spring 20/CI/Data Project/PISA")
+#setwd("~/Desktop/Ma Economics/Spring 20/CI/Data Project/PISA")
+setwd("~/Data")
 rm (list = ls(all.names = TRUE)) #Clean the directory
 
 ####Importing The data
@@ -42,3 +43,4 @@ Students %>% group_by(CNT, CNTSCHID, CNTSTUID, ST004D01T) %>%  group_by(CNT) %>%
 write.foreign(Students, "Students.csv", "Students.sps",   package="SPSS")
 write.foreign(Teachers, "Teachers.csv", "Teachers.sps",   package="SPSS")
 write.foreign(Schools, "Schools.csv", "Schools.sps",   package="SPSS")
+

@@ -1,0 +1,45 @@
+Important questions to check in the Data base:
+
+*=======* Regarding School
+*SC001 1-5 (rural area 1,2,3, city 4,5) // Not sure about the clasification  Check with DANE and other sources, ICFES
+*SC002 Number of students, Enrollment
+	SC002Q01TA male	
+	SC002Q01TA female
+*SC003 Average Size of Class for 15 years old (1-9) reffer to the code book to see the measunment
+*SC004 Student-Computer Ratio for 15 years old students.
+*SC053 Extracurricular activities offer? (Band, arts...)
+*SC059 Science department related questions
+*SC052 Help to 15 years old students?
+SC009 Managment related questions (directed to the principal)
+SC010 Task allocation questions
+SC012 Determinants of student admision
+*SC013 Private or Public School. 
+	We observe more detailed information on private schools
+	regarding the direction managment.
+*SC016 Share of founding.
+SC017 Provide capacity???
+
+*=======* Regarding Teachers
+SC018 How many teachers are on staff and their qualification
+SC019 Teachers in the science staff
+SC025 Share of profesional development programs participants in the last 3 months
+SC027 Professioanl development strategies.
+
+*=======* Regarding Assesment And Evaluation
+SC032 Monitoring teacher perfomance
+SC034 How often are students asessed using the following methods
+SC035 Are tests used for any other purpose?
+SC036 Are achievement data used in any of the following?
+SC037 Do the following arrangements aimed at quality assurance and improvement exist?
+SC040 Based on your last internal school evaluation results, did your school implement any measures in the following areas? 
+SC041 External evaluation in school
+
+*=======* Regarding Targeted Groups
+SC042 Policy about 15-years-old students (different instruction due to ability)
+*SC048 Share of students with adverse caractheristics
+
+*=======* Regarding School Climate
+SC061 Is learning being affected by this phenomena?
+SC063 Parental involvement in the school
+SC064 Share of parent participation in school activities
+

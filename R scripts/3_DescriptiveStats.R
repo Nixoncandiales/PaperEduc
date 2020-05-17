@@ -14,8 +14,8 @@ table_dir <- "C:/Users/16083/Documents/GitHub/PaperEduc/Tables"
 ##========================================================================##
 # Call the Sample
 ##========================================================================##
-#load("C:/Users/16083/Documents/GitHub/PaperEduc/Data 2015/col_treatment_data.RData")## Colombia Sample 
-load("C:/Users/16083/Documents/GitHub/PaperEduc/Data 2015/lat_treatment_data.RData")## Latin America
+load("C:/Users/16083/Documents/GitHub/PaperEduc/Data 2015/col_treatment_data.RData")## Colombia Sample 
+#load("C:/Users/16083/Documents/GitHub/PaperEduc/Data 2015/lat_treatment_data.RData")## Latin America
 #load("C:/Users/16083/Documents/GitHub/PaperEduc/Data 2015/lac_treatment_data.RData")## Latin America & Caribbean
 #load("C:/Users/16083/Documents/GitHub/PaperEduc/Data 2015/all_treatment_data.RData")## ALL pisa 2015
 
@@ -197,7 +197,7 @@ rm(math,read,scie)
                             "", "Environmental optimism", "",
                             "Reading", "", "Math", "", "Science", "") #Names
       table1a = cbind(student_controls,table1a)
-      stargazer(table1a, type="latex", summary = FALSE,
+      stargazer(table1a, type="text", summary = FALSE,
                 column.labels=c("Control","Treatment","Female","Male"), 
                 column.separate = c(2,2),rownames = FALSE,
                 align = FALSE, title = "Comparison of Mean Characteristics", style = "aer",
@@ -211,9 +211,9 @@ rm(math,read,scie)
       teacher_controls <- c("","", "Teacher Age", "", "Teacher Experience (years)", "",
                             "Teachers w/ Bachelor's", "", "Teachers w/ Master's", "", 
                             "Teachers w/ Ph.D.'s", "", "Full-Time Teachers", "", 
-                            "Originally ttrained as teaches", "")
+                            "Originally Trained as Teachers", "")
       table1b = cbind(teacher_controls,table1b)
-      stargazer(table1b, type="latex", summary = FALSE,
+      stargazer(table1b, type="text", summary = FALSE,
                 column.labels=c("Control","Treatment","Female","Male"), 
                 column.separate = c(2,2),rownames = FALSE,
                 align = FALSE, title = "Comparison of Mean Characteristics", style = "aer",
@@ -222,14 +222,5 @@ rm(math,read,scie)
                 digits = 3, digits.extra = 1, initial.zero = FALSE, 
                 label="Tab1", notes	= "TBD", notes.align="l", font.size = "scriptsize")
       
-rm(table_dir,student_controls,teacher_controls,x1,x2,x3,x4,x5,x6,x7,y1,y2,y3,z1,z2,z3,z4,z5,z6,t1,t2,t3,t4,t5,t6,t7)      
-      
-##========================================================================##  
-##Base model Regression OLS 1
-##========================================================================##
-#reg1 <- pisa2015.reg.pv(x=c("Female", "prop_fem_100","T_100","ESCS", "CNT"), 
-                        #pvlabel="MATH", data=students)
-
-#plot(pisa2015.mean(variable ="OUTHOURS", by=c("CNT","Gender", "prop_fem_50"), data=students), sort=TRUE) 
-
+rm(table_dir,student_controls,teacher_controls,x1,x2,x3,x4,x5,x6,y1,y2,y3,z1,z2,z3,z4,z5,z6,t1,t2,t3,t4,t5,t6,t7)      
 
